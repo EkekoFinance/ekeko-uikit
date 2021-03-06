@@ -4,7 +4,7 @@ import { SvgProps } from "../types";
 
 const Icon: React.FC<SvgProps> = (props) => {
   return (
-    <img src={ require('./png/2048.png')} style={{width: 30}}/>
+    <img src='/images/2048.png' style={{width: 30}}/>
   );
 };
 

@@ -387,11 +387,11 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React.createElement("img", __assign({ src: require('./png/2048.png'), style: {} }, props)));
+    return (React.createElement("img", __assign({ src: '/images/2048.png', style: {} }, props)));
 };
 
 var Icon$r = function (props) {
-    return (React.createElement("img", { src: require('./png/2048.png'), style: { width: 40 } }));
+    return (React.createElement("img", { src: '/images/2048.png', style: { width: 40 } }));
 };
 
 var Icon$s = function (props) {
@@ -448,7 +448,7 @@ var Icon$v = function (props) {
 };
 
 var Icon$w = function (props) {
-    return (React.createElement("img", { src: require('./png/2048.png'), style: { width: 30 } }));
+    return (React.createElement("img", { src: '/images/2048.png', style: { width: 30 } }));
 };
 
 var Icon$x = function (props) {
@@ -1224,7 +1224,7 @@ var Progress = function (_a) {
 };
 
 var Icon$I = function (props) {
-    return (React.createElement("img", __assign({ src: require('./png/2048.png'), style: { height: 100 } }, props)));
+    return (React.createElement("img", __assign({ src: '/images/2048.png', style: { height: 100 } }, props)));
 };
 
 keyframes(templateObject_1$t || (templateObject_1$t = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
@@ -2036,9 +2036,9 @@ var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React.createElement("div", null,
         isDark &&
-            React.createElement("img", __assign({ src: require('./png/logolight.png'), style: { height: 47, width: 167 } }, props)),
+            React.createElement("img", __assign({ src: '/images/logolight.png', style: { height: 47, width: 167 } }, props)),
         !isDark &&
-            React.createElement("img", __assign({ src: require('./png/logodark.png'), style: { height: 47, width: 167 } }, props))));
+            React.createElement("img", __assign({ src: '/images/logodark.png', style: { height: 47, width: 167 } }, props))));
 };
 var LogoWithText = React.memo(Logo, function (prev, next) { return prev.isDark === next.isDark; });
 

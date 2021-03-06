@@ -400,11 +400,11 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React__default['default'].createElement("img", __assign({ src: require('./png/2048.png'), style: {} }, props)));
+    return (React__default['default'].createElement("img", __assign({ src: '/images/2048.png', style: {} }, props)));
 };
 
 var Icon$r = function (props) {
-    return (React__default['default'].createElement("img", { src: require('./png/2048.png'), style: { width: 40 } }));
+    return (React__default['default'].createElement("img", { src: '/images/2048.png', style: { width: 40 } }));
 };
 
 var Icon$s = function (props) {
@@ -461,7 +461,7 @@ var Icon$v = function (props) {
 };
 
 var Icon$w = function (props) {
-    return (React__default['default'].createElement("img", { src: require('./png/2048.png'), style: { width: 30 } }));
+    return (React__default['default'].createElement("img", { src: '/images/2048.png', style: { width: 30 } }));
 };
 
 var Icon$x = function (props) {
@@ -1237,7 +1237,7 @@ var Progress = function (_a) {
 };
 
 var Icon$I = function (props) {
-    return (React__default['default'].createElement("img", __assign({ src: require('./png/2048.png'), style: { height: 100 } }, props)));
+    return (React__default['default'].createElement("img", __assign({ src: '/images/2048.png', style: { height: 100 } }, props)));
 };
 
 styled.keyframes(templateObject_1$t || (templateObject_1$t = __makeTemplateObject(["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"], ["\n  from {\n    transform: rotate(0deg);\n  }\n  to {\n    transform: rotate(360deg);\n  }\n"])));
@@ -2049,9 +2049,9 @@ var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
     return (React__default['default'].createElement("div", null,
         isDark &&
-            React__default['default'].createElement("img", __assign({ src: require('./png/logolight.png'), style: { height: 47, width: 167 } }, props)),
+            React__default['default'].createElement("img", __assign({ src: '/images/logolight.png', style: { height: 47, width: 167 } }, props)),
         !isDark &&
-            React__default['default'].createElement("img", __assign({ src: require('./png/logodark.png'), style: { height: 47, width: 167 } }, props))));
+            React__default['default'].createElement("img", __assign({ src: '/images/logodark.png', style: { height: 47, width: 167 } }, props))));
 };
 var LogoWithText = React__default['default'].memo(Logo, function (prev, next) { return prev.isDark === next.isDark; });
 
